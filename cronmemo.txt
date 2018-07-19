@@ -1,0 +1,11 @@
+cron
+
+crontab -l
+crontab -e
+
+min hour day month youbi(0-7) command
+
+/usr/bin/php/home/vagrant/bot_php/bot.php
+
+5 9 * * * /usr/bin/php/home/vagrant/bot_php/bot.php
+30 9 * * * php bot.php
